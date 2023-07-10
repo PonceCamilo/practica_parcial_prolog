@@ -1,1 +1,22 @@
-% Aquí va el código.
+necesidad(fisiologica, respiracion).
+necesidad(fisiologica, alimentación).
+necesidad(fisiologica, descanso).
+necesidad(fisiologica, reproducción).
+necesidad(vida, vivienda).
+necesidad(vida, estudio).
+necesidad(seguridad, integridad-física).
+necesidad(seguridad, empleo).
+necesidad(seguridad, salud).
+necesidad(social, amistad).
+necesidad(social, afecto).
+necesidad(social, intimidad).
+necesidad(reconocimiento, confianza).
+necesidad(reconocimiento, respeto).
+necesidad(reconocimiento, exito).
+necesidad(autorrealizacion, superarse).
+
+nivelSuperior(fisiológico, vida).
+nivelSuperior(vida, seguridad).
+nivelSuperior(seguridad, social).
+nivelSuperior(social, reconocimiento).
+nivelSuperior(reconocimiento, autorrealizacion).
